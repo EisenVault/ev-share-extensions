@@ -73,53 +73,53 @@
 						</control>
 					</field>
 					<!-- EV Doc Properties -->
-					<field id="ev:universalHealthcarId" label-id="prop.ev_uhid">
+					<field id="ev:universalHealthcarId" label="Universal Healthcare Identifier">
 						<control>
 							<control-param name="maxLength">12</control-param>
 						</control>
 					</field>
-					<field id="ev:insuranceClaimNumber" label-id="prop.ev_claimNumber">
+					<field id="ev:insuranceClaimNumber" label="Insurance Claim Number">
 						<control>
 							<control-param name="maxLength">12</control-param>
 						</control>
 					</field>
-					<field id="ev:dateOfAdmission" label-id="prop.ev_dateOfAdmission">
+					<field id="ev:dateOfAdmission" label="Date of Admission">
 						<control>
 							<control template="/org/alfresco/components/form/controls/date.ftl" />
 						</control>
 					</field>
-					<field id="ev:dateOfDischarge" label-id="prop.ev_dateOfDischarge">
+					<field id="ev:dateOfDischarge" label="Date of Discharge">
 						<control>
 							<control template="/org/alfresco/components/form/controls/date.ftl" />
 						</control>
 					</field>
-					<field id="ev:treatingDoctor" label-id="prop.ev_treatingDoctor">
+					<field id="ev:treatingDoctor" label="Treating Doctor">
 						<control>
 							<control-param name="maxLength">128</control-param>
 						</control>
 					</field>
-					<field id="ev:modeOfPayment" label-id="prop.ev_modeOfPayment">
+					<field id="ev:modeOfPayment" label="Mode of Payment">
 						<control>
 							<control template="/org/alfresco/components/form/controls/selectone.ftl" />
 						</control>
 					</field>
-					<field id="ev:typeOfDisease" label-id="prop.ev_typeOfDisease">
+					<field id="ev:typeOfDisease" label="Type of Disease">
 						<control>
 							<control template="/org/alfresco/components/form/controls/selectone.ftl" />
 						</control>
 					</field>
 					<!-- EV Filing Properties -->
-					<field id="ev:barcodeNumber" label-id="prop.ev_barcodeNumber">
+					<field id="ev:barcodeNumber" label="Barcode Number">
 						<control>
 							<control-param name="maxLength">12</control-param>
 						</control>
 					</field>
-					<field id="ev:fileNumber" label-id="prop.ev_fileNumber">
+					<field id="ev:fileNumber" label="File Number">
 						<control>
 							<control-param name="maxLength">6</control-param>
 						</control>
 					</field>
-					<field id="ev:boxNumber" label-id="prop.ev_boxNumber">
+					<field id="ev:boxNumber" label="Box Number">
 						<control>
 							<control-param name="maxLength">6</control-param>
 						</control>
@@ -134,10 +134,8 @@
 					<field id="cm:taggable">
 						<control>
 							<control-param name="compactMode">true</control-param>
-							<control-param name="params">aspect=cm:taggable
-							</control-param>
-							<control-param name="createNewItemUri">/api/tag/workspace/SpacesStore
-							</control-param>
+							<control-param name="params">aspect=cm:taggable</control-param>
+							<control-param name="createNewItemUri">/api/tag/workspace/SpacesStore</control-param>
 							<control-param name="createNewItemIcon">tag</control-param>
 						</control>
 					</field>
@@ -182,10 +180,8 @@
 					<field id="cm:taggable">
 						<control>
 							<control-param name="compactMode">true</control-param>
-							<control-param name="params">aspect=cm:taggable
-							</control-param>
-							<control-param name="createNewItemUri">/api/tag/workspace/SpacesStore
-							</control-param>
+							<control-param name="params">aspect=cm:taggable</control-param>
+							<control-param name="createNewItemUri">/api/tag/workspace/SpacesStore</control-param>
 							<control-param name="createNewItemIcon">tag</control-param>
 						</control>
 					</field>
@@ -263,53 +259,53 @@
 	                    <control template="/org/alfresco/components/form/controls/daterange.ftl" />
 	                </field>
 	                <!-- EV Doc Properties -->
-					<field id="ev:universalHealthcarId" label-id="prop.ev_uhid">
+					<field id="ev:universalHealthcarId" label="Universal Healthcare Identifier">
 						<control>
 							<control template="/org/alfresco/components/form/controls/textfield.ftl" />
 						</control>
 					</field>
-					<field id="ev:insuranceClaimNumber" label-id="prop.ev_claimNumber">
+					<field id="ev:insuranceClaimNumber" label="Insurance Claim Number">
 						<control>
 							<control template="/org/alfresco/components/form/controls/textfield.ftl" />
 						</control>
 					</field>
-					<field id="ev:dateOfAdmission" label-id="prop.ev_dateOfAdmission">
+					<field id="ev:dateOfAdmission" label="Date of Admission">
 						<control>
 							<control template="/org/alfresco/components/form/controls/daterange.ftl" />
 						</control>
 					</field>
-					<field id="ev:dateOfDischarge" label-id="prop.ev_dateOfDischarge">
+					<field id="ev:dateOfDischarge" label="Date of Discharge">
 						<control>
 							<control template="/org/alfresco/components/form/controls/daterange.ftl" />
 						</control>
 					</field>
-					<field id="ev:treatingDoctor" label-id="prop.ev_treatingDoctor">
+					<field id="ev:treatingDoctor" label="Treating Doctor">
 						<control>
 							<control template="/org/alfresco/components/form/controls/textfield.ftl" />
 						</control>
 					</field>
-					<field id="ev:modeOfPayment" label-id="prop.ev_modeOfPayment">
+					<field id="ev:modeOfPayment" label="Mode of Payment">
 						<control>
 							<control template="/org/alfresco/components/form/controls/selectone.ftl" />
 						</control>
 					</field>
-					<field id="ev:typeOfDisease" label-id="prop.ev_typeOfDisease">
+					<field id="ev:typeOfDisease" label="Type of Disease">
 						<control>
 							<control template="/org/alfresco/components/form/controls/selectone.ftl" />
 						</control>
 					</field>
 					<!-- EV Filing Properties -->
-					<field id="ev:barcodeNumber" label-id="prop.ev_barcodeNumber">
+					<field id="ev:barcodeNumber" label="Barcode Number">
 						<control>
 							<control template="/org/alfresco/components/form/controls/textfield.ftl" />
 						</control>
 					</field>
-					<field id="ev:fileNumber" label-id="prop.ev_fileNumber">
+					<field id="ev:fileNumber" label="File Number">
 						<control>
 							<control template="/org/alfresco/components/form/controls/textfield.ftl" />
 						</control>
 					</field>
-					<field id="ev:boxNumber" label-id="prop.ev_boxNumber">
+					<field id="ev:boxNumber" label="Box Number">
 						<control>
 							<control template="/org/alfresco/components/form/controls/textfield.ftl" />
 						</control>

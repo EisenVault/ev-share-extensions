@@ -20,7 +20,7 @@
 	        <forms>
 	            <form labelId="search.form.label.cm_content" descriptionId="search.form.desc.cm_content">cm:content</form>
 	            <form labelId="search.form.label.cm_folder" descriptionId="search.form.desc.cm_folder">cm:folder</form>            
-	            <form labelId="type.ev_doc" descriptionId="search.form.desc.ev_doc">ev:doc</form>
+	            <form labelId="type.ev_doc" description="Search for EisenVault Documents">ev:doc</form>
 	        </forms>
 	    </advanced-search>
 	</config>
